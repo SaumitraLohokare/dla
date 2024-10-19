@@ -97,6 +97,7 @@ int main(void) {
        fprintf(stderr, "ERROR: Failed to write image.\n");
        return 1; 
     }
+    free(pixels);
     if (DEBUG) printf("Saved image to result.png\n");
 
     printf("\n---------------\nDLA Results\n---------------\n");
