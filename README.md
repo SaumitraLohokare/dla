@@ -7,7 +7,7 @@ Diffusion Limited Aggregation in C
 
 > To edit the parameters for DLA, change the `#define`s in `main.c`.
 
-## What is DLA
+## What is DLA?
 In 1981, Thomas Witten and Leonard Sander introduced a concept called diffusion-limited aggregation. This process happens when particles move randomly through a medium and stick together when they come close enough. As they continue to join together, they create unique branching shapes known as Brownian trees, which have a fractal-like appearance.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/DLA_Cluster.JPG/640px-DLA_Cluster.JPG" width=320>
@@ -26,4 +26,4 @@ To simulate diffusion-limited aggregation (DLA), we begin with a large canvas an
 - [stb_image_write](https://github.com/nothings/stb/blob/master/stb_image_write.h)
 
 ## References Used
-- Josh's Channel. [2024]. Better Mountain Generators That Aren't Perlin Noise or Erosion. [https://youtu.be/gsJHzBTPG0Y?si=XsmrUwdWN12zGl9H]
+- Josh's Channel. [2024]. Better Mountain Generators That Aren't Perlin Noise or Erosion. Youtube. [https://youtu.be/gsJHzBTPG0Y?si=XsmrUwdWN12zGl9H]
