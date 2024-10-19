@@ -94,7 +94,7 @@ int main(void) {
 
     const char *filepath = "result.png";
     if (!stbi_write_png(filepath, size, size, 4, pixels, sizeof(uint32_t) * size)) {
-       fprintf(stderr, "ERROR: Failed to write image.\n");
+       printf("Failed to write image.\n");
        return 1; 
     }
     free(pixels);
